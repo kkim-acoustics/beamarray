@@ -23,8 +23,8 @@ t=0;
 
     
 
-    x_0 = str2double(inputdlg('Enter x axis listener position','X position',[1 1]))
-    y_0 = str2double(inputdlg('Enter y axis listener position','Y position',[1 1]))
+    x_0 = str2double(inputdlg('Enter x axis listener position','X position',[1 100]))
+    y_0 = str2double(inputdlg('Enter y axis listener position','Y position',[1 100]))
 
     observerpos = [x_0,y_0];
     
